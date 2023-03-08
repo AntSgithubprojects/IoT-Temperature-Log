@@ -1,0 +1,1 @@
+mv ~/b/dev1/log.txt ~/backup/dev1/templog_$(date +%d-%m-%Y_%H:%M).txt
