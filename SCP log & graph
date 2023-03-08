@@ -1,0 +1,1 @@
+scp -i ~/#LOCATION_OF_CERT/MQTT_Server03.pem /home/#LOCATION_OF_LOG_FILE/log.txt ec2-user@#EC2_INDVIDUAL_ADDRESS.us-west-2.compute.amazonaws.com:~/data/dev1/templog_$(date +%d-%m-%Y_%H:$%Y_%H:%M).txt
