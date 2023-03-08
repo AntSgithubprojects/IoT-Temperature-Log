@@ -19,4 +19,5 @@ Mvbackup and backup graph then moves the file to a different backup directory wi
 
 The automation of this project is completed via cron jobs. The cron job activates a script at specific times to create the data and move the graph and files to their intended location.
 
+![image](https://user-images.githubusercontent.com/100078071/223633787-f500202c-3b12-467d-a13c-92499243871a.png)
 
