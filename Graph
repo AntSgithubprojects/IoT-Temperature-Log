@@ -1,0 +1,21 @@
+#!/usr/bin/python
+
+import matplotlib.pyplot as plt
+import datetime
+
+x = []
+y = []
+
+for line in open('log.txt', 'r'):
+        lines = [i for i in line.split()]
+        x.append(lines[0])
+        y.append(float(lines[1]))
+
+plt.title("Temperature Graph")
+plt.xlabel('Time')
+plt.ylabel('Temperature')
+plt.yticks(y)
+plt.plot(x, y, marker = 'o', c = 'g')
+
+plt.savefig('temp_graph.png')
+plt.show()
